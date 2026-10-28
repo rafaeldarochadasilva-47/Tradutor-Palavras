@@ -170,18 +170,6 @@ Tradutor-Palavras/
   LibreOffice Writer; ele não é usado pelo aplicativo durante a execução.
 - **`build/`** e **`.dart_tool/`**: artefatos gerados automaticamente e
   ignorados pelo Git.
-
-## Adicionando novas palavras
-
-Edite a lista `wordsList` no arquivo `lib/word.dart` e adicione outro objeto
-`Word` com os campos em português, inglês e francês. Por exemplo:
-
-```dart
-Word(
-  portuguese: 'Escola',
-  english: 'School',
-  french: 'École',
-),
 ```
 
 Depois, salve o arquivo e execute novamente o aplicativo, se necessário.
