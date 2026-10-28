@@ -170,10 +170,6 @@ Tradutor-Palavras/
   LibreOffice Writer; ele não é usado pelo aplicativo durante a execução.
 - **`build/`** e **`.dart_tool/`**: artefatos gerados automaticamente e
   ignorados pelo Git.
-```
-
-Depois, salve o arquivo e execute novamente o aplicativo, se necessário.
-
 ## Gerar uma versão Android
 
 Para gerar um APK de release:
