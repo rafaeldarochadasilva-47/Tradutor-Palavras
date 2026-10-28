@@ -16,6 +16,19 @@ necessidade de internet, banco de dados ou API externa.
 - Exibe a posição da palavra atual na lista.
 - Possui interface com tema escuro e Material 3.
 
+## Adicionando novas palavras
+
+Edite a lista `wordsList` no arquivo `lib/word.dart` e adicione outro objeto
+`Word` com os campos em português, inglês e francês. Por exemplo:
+
+```dart
+Word(
+  portuguese: 'Escola',
+  english: 'School',
+  french: 'École',
+),
+```
+
 ## Pré-requisitos
 
 Antes de executar o projeto, instale:
