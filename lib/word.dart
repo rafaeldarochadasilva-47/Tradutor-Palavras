@@ -10,6 +10,12 @@ class Word {
   });
 }
 
+bool hasCompleteTranslations(Word word) {
+  return word.portuguese.trim().isNotEmpty &&
+      word.english.trim().isNotEmpty &&
+      word.french.trim().isNotEmpty;
+}
+
 final List<Word> wordsList = const [
   Word(portuguese: 'Casa', english: 'House', french: 'Maison'),
   Word(portuguese: 'Cachorro', english: 'Dog', french: 'Chien'),
