@@ -16,7 +16,7 @@ bool hasCompleteTranslations(Word word) {
       word.french.trim().isNotEmpty;
 }
 
-final List<Word> wordsList = const [
+const List<Word> wordsList = [
   Word(portuguese: 'Casa', english: 'House', french: 'Maison'),
   Word(portuguese: 'Cachorro', english: 'Dog', french: 'Chien'),
   Word(portuguese: 'Livro', english: 'Book', french: 'Livre'),
